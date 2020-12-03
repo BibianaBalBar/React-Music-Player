@@ -5,6 +5,12 @@
           box-sizing: border-box;
 }
 
+h1,
+h2,
+h3 {
+  color: #363636;
+}
+
 .song-container {
   min-height: 60vh;
   display: -webkit-box;
@@ -20,6 +26,19 @@
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+}
+
+.song-container img {
+  width: 20%;
+  border-radius: 50%;
+}
+
+.song-container h2 {
+  padding: 3rem 1rem 1rem 1rem;
+}
+
+.song-container h3 {
+  font-size: 1rem;
 }
 
 .player {
