@@ -112,6 +112,11 @@ h4 {
   -webkit-box-shadow: 2px 2px 50px #cccccc;
           box-shadow: 2px 2px 50px #cccccc;
   overflow: scroll;
+  -webkit-transform: translateX(-100%);
+          transform: translateX(-100%);
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+  opacity: 0;
 }
 
 .library h2 {
@@ -153,6 +158,12 @@ h4 {
   background: #a5b5e4;
 }
 
+.active-library {
+  -webkit-transform: translateX(0%);
+          transform: translateX(0%);
+  opacity: 1;
+}
+
 * {
   scrollbar-width: thin;
   scrollbar-color: rgba(155, 155, 155, 0.5) transparent;
@@ -170,5 +181,31 @@ h4 {
   background-color: rgba(155, 155, 155, 0.5);
   border-radius: 20px;
   border: transparent;
+}
+
+nav {
+  min-height: 10vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+nav button {
+  background: transparent;
+  border: 2px solid #414141;
+  cursor: pointer;
+  padding: 0.5rem;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+nav button:hover {
+  background: #414141;
+  color: white;
 }
 /*# sourceMappingURL=app.css.map */
