@@ -1,3 +1,14 @@
+# Music Player Web App
+
+## Music player build with React.js
+
+Project build based on [Dev Ed](https://github.com/developedbyed)'s tutorial on "The Creative React Course".
+
+ 
+![music-player](https://github.com/BibianaBalBar/React-Music-Player/blob/main/img/music-player.gif)
+
+    //////////////////////////////////////////////////////////////
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
